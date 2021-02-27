@@ -17,6 +17,9 @@ function Room() {
             <button onClick={() => setLit(true)}>ON</button>
             <button onClick={() => setLit(false)}>OFF</button>
         </div>
+        <div>
+            <h1>This functionality is achieved by using the concept of states and hooks in react</h1>
+        </div>
     </div>
     );
 }
