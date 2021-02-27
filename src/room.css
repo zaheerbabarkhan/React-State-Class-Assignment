@@ -1,0 +1,15 @@
+.buttons
+{
+    display: flex;
+    justify-content: space-around;
+}
+button
+{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(174, 210, 241);
+    font-size: 32px;
+    font-weight: bold;
+    border-radius: 50%;
+    border: 5px solid rgb(6, 7, 8);
+}
