@@ -18,7 +18,7 @@ function Room() {
             <button onClick={() => setLit(false)}>OFF</button>
         </div>
         <div>
-            <h1>This functionality is achieved by using the concept of states and hooks in react</h1>
+            <h2 style={{textAlign: 'center'}}>This functionality is achieved by using the concept of states in react</h2>
         </div>
     </div>
     );
