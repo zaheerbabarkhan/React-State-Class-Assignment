@@ -14,8 +14,8 @@ function Room() {
             <img src={isLit ? `${lighton}` : `${lightoff}`} height={300} width={'100%'} />
         </div>
         <div className="buttons">
-            <button onClick={() => setLit(true)}>ON</button>
-            <button onClick={() => setLit(false)}>OFF</button>
+            <button className={isLit ? 'dark' : 'lit'} onClick={() => setLit(true)}>ON</button>
+            <button className={ !isLit ? 'dark' : 'lit'} onClick={() => setLit(false)}>OFF</button>
         </div>
         <div>
             <h2 style={{textAlign: 'center'}}>This functionality is achieved by using the concept of states in react</h2>
